@@ -1,0 +1,12 @@
+{"filterbymagnitude":true,
+"magnitudethreshold":2.5,
+"inputcsvpath_event":"enter-path-to.../texnet_events.csv",
+"outputcsvpath_event":"enter-path-to.../texnet_events_bypython.csv",
+"inputcsvpath_station":"enter-path-to.../texnet_stations.csv",
+"outputcsvpath_station":"enter-path-to.../texnet_stations_bypython.csv",
+"inputcsvpath_hires":"enter-path-to.../texnet_hirescatalog_2017-01-01T06_00_00.000Z_2022-05-31T05_00_00.000Z.csv",
+"outputcsvpath_hires":"enter-path-to.../texnet_hires_bypython.csv",
+"inputcsvpath_dailyinj":"enter-path-to.../exportResult.csv",
+"outputcsvpath_dailyinj":"enter-path-to.../texnet_dailyinj_bypython.csv",
+"inputcsvpath_sum_daily":"enter-path-to.../exportResult.csv",
+"outputcsvpath_sum_daily":"enter-path-to.../texnet_daily_from2020_"}
