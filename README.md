@@ -1,5 +1,7 @@
 # py4_texnet_eqcat
-Python code developed to work with TexNet data products. TexNet data available to the public in CSV format from the websites listed below.
+Python code developed to work with TexNet data products.
+
+TexNet data available to the public in CSV format from the websites listed below.
 
 https://www.beg.utexas.edu/texnet-cisr/texnet/earthquake-catalog
 
