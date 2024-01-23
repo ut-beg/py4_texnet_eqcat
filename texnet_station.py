@@ -2,7 +2,7 @@ import csv
 from datetime import datetime
 import json
 
-with open ("C:/DataCB/github/py4_texnet_eqcat/config.json","r") as configfile:
+with open ("config.json","r") as configfile:
     config=json.load(configfile)
 
 with open(config["inputcsvpath_station"],'r') as texnetstation:

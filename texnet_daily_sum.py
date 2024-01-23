@@ -13,7 +13,7 @@ print("current year = " + str(currentyear))
 welldictionarylist=[]
 uniquewelllist=[]
 
-with open ("C:/DataCB/github/py4_texnet_eqcat/config.json","r") as configfile:
+with open ("config.json","r") as configfile:
     config=json.load(configfile)
 
 with open(config["inputcsvpath_sum_daily"],'r') as dailyPostPY:
