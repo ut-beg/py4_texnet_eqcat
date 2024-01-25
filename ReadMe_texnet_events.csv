@@ -1,6 +1,7 @@
 TexNet Earthquake Catalog - texnet_events.csv
 Download file - https://www.beg.utexas.edu/texnet-cisr/texnet/earthquake-catalog
-Select rows are written to new file with new field headings, option to filter by magnitude
+Select rows are written to new file with new field headings
+Within config.json the magnitude threshold is set to 2.5
 Event date is split into month, day and year - these rows are added to the end of the table
 Qyear classification is based on year and quarter of the event timing
 Quarter = Month 01-03=Q1, Month 04-06=Q2, Month 07-09=Q3, Month 10-12=Q4
