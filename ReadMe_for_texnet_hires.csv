@@ -1,0 +1,7 @@
+TexNet High Resolution Catalog - texnet_hirescatalog_2017-01-01T06_00_00.000Z_2022-05-31T05_00_00.000Z.csv
+Download file - https://hirescatalog.texnet.beg.utexas.edu/ 
+Select rows are written to new file with new field headings.
+Example input in input_files folder
+Input file called texnet_hirescatalog_2017-01-01T06_00_00.000Z_2022-05-31T05_00_00.000Z.csv
+Example output in output_files folder
+Output file called texnet_hires_bypython.csv
