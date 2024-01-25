@@ -1,9 +1,9 @@
 TexNet Earthquake Catalog - texnet_events.csv
 Download file - https://www.beg.utexas.edu/texnet-cisr/texnet/earthquake-catalog
-"Select rows are written to new file with new field headings, option to filter by magnitude"
-"Event date is split into month, day and year - these rows are added to the end of the table"
+Select rows are written to new file with new field headings, option to filter by magnitude
+Event date is split into month, day and year - these rows are added to the end of the table
 Qyear classification is based on year and quarter of the event timing
-"Quarter = Month 01-03=Q1, Month 04-06=Q2, Month 07-09=Q3, Month 10-12=Q4"
+Quarter = Month 01-03=Q1, Month 04-06=Q2, Month 07-09=Q3, Month 10-12=Q4
 Example input in input_files folder
 Input file called texnet_events.csv
 Example output in output_files folder

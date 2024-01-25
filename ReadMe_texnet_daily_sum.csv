@@ -1,6 +1,6 @@
 TexNet Injection Volume Reporting Tool - exportResult.csv
 Download file - https://injection.texnet.beg.utexas.edu/
-"New table is created - calculated SUM of volume (bbls and mcf) by well, month and year"
+New table is created - calculated SUM of volume (bbls and mcf) by well, month and year
 **Open and Save downloaded file in Excel before running this code
 Example input in input_files folder
 Input file called exportResult.csv
