@@ -1,9 +1,0 @@
-TexNet Earthquake Catalog - texnet_stations.csv
-Download file - https://www.beg.utexas.edu/texnet-cisr/texnet/earthquake-catalog
-All rows are written to new CSV file with new field headings
-Station Type Label (field called label) - these rows are added to the end of the table
-This script will be updated when a new station is deployed that does not fit the structure lined out above
-Example input in input_files folder
-Input file called texnet_stations.csv
-Example output in output_files folder
-Output file called texnet_stations_bypython.csv
