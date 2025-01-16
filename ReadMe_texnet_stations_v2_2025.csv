@@ -1,0 +1,23 @@
+TexNet Earthquake Catalog - Stations
+Download file texnet_stations.csv
+https://www.beg.utexas.edu/texnet-cisr/texnet/earthquake-catalog
+
+This script writes two output files in .CSV format.
+One output file contains all stations, a second file contains only active stations.
+texnet_stations_active.csv contains the stations that are active, meaning not decomissioned.
+texnet_stations_all.csv contains all the stations in the dataset including decomissioned stations.
+
+Both .CSV files contain new field headings.
+The field called label contains the station type classification.
+Quarter and year (field: startqyear) code is based on station start date.
+Month 01-03=Q1
+Month 04-06=Q2
+Month 07-09=Q3
+Month 10-12=Q4
+Station start month, start year, startqyear and python processing date are appended to the end of the table.
+
+Sample input in input_files folder
+1. texnet_stations.csv
+Sample output in output_files folder
+1. texnet_stations_active.csv
+2. texnet_stations_all.csv

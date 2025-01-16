@@ -1,0 +1,11 @@
+TexNet High Resolution Catalog
+Download file texnet_hirescatalog_2017-01-01T06_00_00.000Z_2024-12-02T05_59_59.000Z.csv
+https://hirescatalog.texnet.beg.utexas.edu/ 
+
+Select rows are written to new .CSV file with new field headings.
+New field called eventdate with format M/D/YYYY created from event month, day and year columns.
+
+Sample input in input_files folder
+1. texnet_hirescatalog_2017-01-01T06_00_00.000Z_2024-12-02T05_59_59.000Z.csv
+Sample output in output_files folder
+1. texnet_hires.csv

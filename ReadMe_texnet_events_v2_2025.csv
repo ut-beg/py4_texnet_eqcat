@@ -1,0 +1,16 @@
+TexNet Earthquake Catalog - Events
+Download file texnet_events.csv
+https://www.beg.utexas.edu/texnet-cisr/texnet/earthquake-catalog
+
+Select rows are written to new .CSV file with new field headings.
+Quarter and year (field: quartyear) code is based on event timing.
+Month 01-03=Q1
+Month 04-06=Q2
+Month 07-09=Q3
+Month 10-12=Q4
+Event month, event year and python processing date are appended to the end of the table.
+
+Sample input in input_files folder
+1. texnet_events.csv
+Sample output in output_files folder
+1. texnet_events_bypython.csv

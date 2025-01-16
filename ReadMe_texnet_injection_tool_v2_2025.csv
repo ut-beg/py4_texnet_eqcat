@@ -1,0 +1,23 @@
+TexNet Injection Volume Reporting Tool - Daily Injection Volume and Well Pressure (BHP)
+Download files exportResult.csv and exportPressureResult.csv
+https://injection.texnet.beg.utexas.edu/
+
+Script: texnet_online_2025_daily_injection_volume_select_columns.py
+Select rows from exportResult.csv are written to new .CSV file.
+Output .CSV files contain new field headings. 
+
+Script: texnet_online_2025_daily_pressure_select_columns.py
+Select rows from exportPressureResult are written to new .CSV file.
+Output .CSV files contain new field headings. 
+
+Script: texnet_online_2025_daily_injection_volume_to_monthly.py
+Injection volume (bbls) is summed by well, year and month to result in monthly injection volume.
+
+Sample input in input_files folder
+1. exportResult.csv - daily injection volume
+2. exportPressureResult.csv - well pressure (BHP)
+
+Sample output in output_files folder
+1. daily_injection_volume_select_columns.csv
+2. daily_pressure_select_columns.csv
+3. Monthly_byWell_SUMdaily_injection.csv
